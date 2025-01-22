@@ -1,5 +1,13 @@
+body, html {
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
 .App {
   text-align: center;
+  overflow-y: hidden;
+  position: absolute;
+
 }
 
 .App-logo {
@@ -28,11 +36,3 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

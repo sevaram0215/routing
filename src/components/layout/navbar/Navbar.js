@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-
+import "./Navbar.scss"
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light ">
       <div className="container-fluid">
 
         <a className="navbar-brand" href="home">Rajasthan police</a>

@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Navbar from './components/layout/navbar/Navbar';
 import Mains from './components/layout/main/Mains';
@@ -8,7 +8,7 @@ function App() {
   return (
 
    <div>
-    <Navbar/>
+    <Navbar className="navbar"/>
     <Mains/>
     <Footer/>
    </div>
